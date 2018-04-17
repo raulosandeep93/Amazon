@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<parameter name="browserName" value="Chrome"></parameter>
+	<parameter name="url" value="https://www.amazon.in/"></parameter>
+	<test name="testng.xml">
+		<classes>
+			<class name="test.Earphones">
+				<methods>
+					<include name="purchaseEarphones" />
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- testng.xml -->
+</suite> <!-- Suite -->

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Clicking on Add to Cart button.]]>
+    </line>
+    <line>
+      <![CDATA[Add to Cart button has been clicked successfully.]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="45287" started-at="2018-04-17T16:29:50Z" finished-at="2018-04-17T16:30:35Z">
+    <groups>
+    </groups>
+    <test name="testng.xml" duration-ms="45287" started-at="2018-04-17T16:29:50Z" finished-at="2018-04-17T16:30:35Z">
+      <class name="test.Earphones">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.Earphones@d80b78]" name="beforeSuite" is-config="true" duration-ms="154" started-at="2018-04-17T16:29:49Z" finished-at="2018-04-17T16:29:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeMethod(java.lang.String, java.lang.String)[pri:0, instance:test.Earphones@d80b78]" name="beforeMethod" is-config="true" duration-ms="18368" started-at="2018-04-17T16:29:50Z" finished-at="2018-04-17T16:30:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.amazon.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:test.Earphones@d80b78]" name="beforeMethod" is-config="true" duration-ms="337" started-at="2018-04-17T16:30:08Z" finished-at="2018-04-17T16:30:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="purchaseEarphones()[pri:0, instance:test.Earphones@d80b78]" name="purchaseEarphones" duration-ms="26452" started-at="2018-04-17T16:30:08Z" finished-at="2018-04-17T16:30:35Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking on Add to Cart button.]]>
+            </line>
+            <line>
+              <![CDATA[Add to Cart button has been clicked successfully.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- purchaseEarphones -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.Earphones@d80b78]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-17T16:30:35Z" finished-at="2018-04-17T16:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.Earphones@d80b78]" name="afterSuite" is-config="true" duration-ms="1" started-at="2018-04-17T16:30:35Z" finished-at="2018-04-17T16:30:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- test.Earphones -->
+    </test> <!-- testng.xml -->
+  </suite> <!-- Suite -->
+</testng-results>
